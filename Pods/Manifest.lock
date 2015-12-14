@@ -1,0 +1,10 @@
+PODS:
+  - Swiftline (0.1.0)
+
+DEPENDENCIES:
+  - Swiftline
+
+SPEC CHECKSUMS:
+  Swiftline: d2ec30d1e752c2b1237ab3c0b334c27cd9c2257b
+
+COCOAPODS: 0.39.0
