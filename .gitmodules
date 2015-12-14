@@ -1,0 +1,3 @@
+[submodule "Vendor/Swiftline"]
+	path = Vendor/Swiftline
+	url = https://github.com/Swiftline/Swiftline.git

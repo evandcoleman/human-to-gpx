@@ -8,7 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		200AB3291C1E5E430041E732 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200AB3281C1E5E430041E732 /* main.swift */; };
-		912E7EFBB0CAB5860DA78F7A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73704E9CCFD08ABD986E76 /* Pods.framework */; };
+		206D10D11C1E68820046A580 /* Agree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10AE1C1E68820046A580 /* Agree.swift */; };
+		206D10D21C1E68820046A580 /* AgreeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10AF1C1E68820046A580 /* AgreeSettings.swift */; };
+		206D10D31C1E68820046A580 /* Args.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B11C1E68820046A580 /* Args.swift */; };
+		206D10D41C1E68820046A580 /* ArgsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B21C1E68820046A580 /* ArgsParser.swift */; };
+		206D10D51C1E68820046A580 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B31C1E68820046A580 /* Argument.swift */; };
+		206D10D61C1E68820046A580 /* Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B51C1E68820046A580 /* Ask.swift */; };
+		206D10D71C1E68820046A580 /* AskerValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B61C1E68820046A580 /* AskerValidator.swift */; };
+		206D10D81C1E68820046A580 /* AskSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B71C1E68820046A580 /* AskSettings.swift */; };
+		206D10D91C1E68820046A580 /* Choose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10B91C1E68820046A580 /* Choose.swift */; };
+		206D10DA1C1E68820046A580 /* ChooseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10BA1C1E68820046A580 /* ChooseSettings.swift */; };
+		206D10DB1C1E68820046A580 /* Colorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10BC1C1E68820046A580 /* Colorizer.swift */; };
+		206D10DC1C1E68820046A580 /* StringBackgroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10BD1C1E68820046A580 /* StringBackgroundColorizer.swift */; };
+		206D10DD1C1E68820046A580 /* StringForegroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10BE1C1E68820046A580 /* StringForegroundColorizer.swift */; };
+		206D10DE1C1E68820046A580 /* StringStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10BF1C1E68820046A580 /* StringStyle.swift */; };
+		206D10DF1C1E68820046A580 /* StringStyleColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C01C1E68820046A580 /* StringStyleColorizer.swift */; };
+		206D10E01C1E68820046A580 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C21C1E68820046A580 /* Env.swift */; };
+		206D10E11C1E68820046A580 /* ArgConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C41C1E68820046A580 /* ArgConvertible.swift */; };
+		206D10E21C1E68820046A580 /* Glob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C51C1E68820046A580 /* Glob.swift */; };
+		206D10E31C1E68820046A580 /* ProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C61C1E68820046A580 /* ProcessInfo.swift */; };
+		206D10E41C1E68820046A580 /* PromptPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C71C1E68820046A580 /* PromptPrinter.swift */; };
+		206D10E51C1E68820046A580 /* PromptReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C81C1E68820046A580 /* PromptReader.swift */; };
+		206D10E61C1E68820046A580 /* PromptSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10C91C1E68820046A580 /* PromptSettings.swift */; };
+		206D10E71C1E68820046A580 /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CB1C1E68820046A580 /* CommandExecutor.swift */; };
+		206D10E81C1E68820046A580 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CC1C1E68820046A580 /* Runner.swift */; };
+		206D10E91C1E68820046A580 /* RunnerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CD1C1E68820046A580 /* RunnerSettings.swift */; };
+		206D10EA1C1E68820046A580 /* RunResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CE1C1E68820046A580 /* RunResults.swift */; };
+		206D10EB1C1E68820046A580 /* ShortHandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CF1C1E68820046A580 /* ShortHandRunner.swift */; };
+		206D10EC1C1E68820046A580 /* TaskPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10D01C1E68820046A580 /* TaskPipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,20 +54,35 @@
 		1F73704E9CCFD08ABD986E76 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		200AB3251C1E5E430041E732 /* human-to-gpx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "human-to-gpx"; sourceTree = BUILT_PRODUCTS_DIR; };
 		200AB3281C1E5E430041E732 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AB1E749D7BFC06E5BC8154A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		FF11414EAD09AD03B6F2D94F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		206D10AE1C1E68820046A580 /* Agree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agree.swift; sourceTree = "<group>"; };
+		206D10AF1C1E68820046A580 /* AgreeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreeSettings.swift; sourceTree = "<group>"; };
+		206D10B11C1E68820046A580 /* Args.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Args.swift; sourceTree = "<group>"; };
+		206D10B21C1E68820046A580 /* ArgsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgsParser.swift; sourceTree = "<group>"; };
+		206D10B31C1E68820046A580 /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
+		206D10B51C1E68820046A580 /* Ask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ask.swift; sourceTree = "<group>"; };
+		206D10B61C1E68820046A580 /* AskerValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskerValidator.swift; sourceTree = "<group>"; };
+		206D10B71C1E68820046A580 /* AskSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskSettings.swift; sourceTree = "<group>"; };
+		206D10B91C1E68820046A580 /* Choose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choose.swift; sourceTree = "<group>"; };
+		206D10BA1C1E68820046A580 /* ChooseSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSettings.swift; sourceTree = "<group>"; };
+		206D10BC1C1E68820046A580 /* Colorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorizer.swift; sourceTree = "<group>"; };
+		206D10BD1C1E68820046A580 /* StringBackgroundColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringBackgroundColorizer.swift; sourceTree = "<group>"; };
+		206D10BE1C1E68820046A580 /* StringForegroundColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringForegroundColorizer.swift; sourceTree = "<group>"; };
+		206D10BF1C1E68820046A580 /* StringStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStyle.swift; sourceTree = "<group>"; };
+		206D10C01C1E68820046A580 /* StringStyleColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStyleColorizer.swift; sourceTree = "<group>"; };
+		206D10C21C1E68820046A580 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		206D10C41C1E68820046A580 /* ArgConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgConvertible.swift; sourceTree = "<group>"; };
+		206D10C51C1E68820046A580 /* Glob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glob.swift; sourceTree = "<group>"; };
+		206D10C61C1E68820046A580 /* ProcessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessInfo.swift; sourceTree = "<group>"; };
+		206D10C71C1E68820046A580 /* PromptPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptPrinter.swift; sourceTree = "<group>"; };
+		206D10C81C1E68820046A580 /* PromptReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptReader.swift; sourceTree = "<group>"; };
+		206D10C91C1E68820046A580 /* PromptSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptSettings.swift; sourceTree = "<group>"; };
+		206D10CB1C1E68820046A580 /* CommandExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandExecutor.swift; sourceTree = "<group>"; };
+		206D10CC1C1E68820046A580 /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		206D10CD1C1E68820046A580 /* RunnerSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerSettings.swift; sourceTree = "<group>"; };
+		206D10CE1C1E68820046A580 /* RunResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunResults.swift; sourceTree = "<group>"; };
+		206D10CF1C1E68820046A580 /* ShortHandRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortHandRunner.swift; sourceTree = "<group>"; };
+		206D10D01C1E68820046A580 /* TaskPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskPipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		200AB3221C1E5E430041E732 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				912E7EFBB0CAB5860DA78F7A /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		200AB31C1C1E5E430041E732 = {
@@ -48,7 +90,6 @@
 			children = (
 				200AB3271C1E5E430041E732 /* human-to-gpx */,
 				200AB3261C1E5E430041E732 /* Products */,
-				F81580A27EAB10A8C1F48CB4 /* Pods */,
 				ED12E87D900A1B1F9783E7FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -64,9 +105,110 @@
 		200AB3271C1E5E430041E732 /* human-to-gpx */ = {
 			isa = PBXGroup;
 			children = (
+				206D10AC1C1E68820046A580 /* Swiftline */,
 				200AB3281C1E5E430041E732 /* main.swift */,
 			);
 			path = "human-to-gpx";
+			sourceTree = "<group>";
+		};
+		206D10AC1C1E68820046A580 /* Swiftline */ = {
+			isa = PBXGroup;
+			children = (
+				206D10AD1C1E68820046A580 /* Agree */,
+				206D10B01C1E68820046A580 /* Args */,
+				206D10B41C1E68820046A580 /* Ask */,
+				206D10B81C1E68820046A580 /* Choose */,
+				206D10BB1C1E68820046A580 /* Colorize */,
+				206D10C11C1E68820046A580 /* ENV */,
+				206D10C31C1E68820046A580 /* Misc */,
+				206D10CA1C1E68820046A580 /* Runner */,
+			);
+			name = Swiftline;
+			path = Vendor/Swiftline/Pod/Swiftline;
+			sourceTree = SOURCE_ROOT;
+		};
+		206D10AD1C1E68820046A580 /* Agree */ = {
+			isa = PBXGroup;
+			children = (
+				206D10AE1C1E68820046A580 /* Agree.swift */,
+				206D10AF1C1E68820046A580 /* AgreeSettings.swift */,
+			);
+			path = Agree;
+			sourceTree = "<group>";
+		};
+		206D10B01C1E68820046A580 /* Args */ = {
+			isa = PBXGroup;
+			children = (
+				206D10B11C1E68820046A580 /* Args.swift */,
+				206D10B21C1E68820046A580 /* ArgsParser.swift */,
+				206D10B31C1E68820046A580 /* Argument.swift */,
+			);
+			path = Args;
+			sourceTree = "<group>";
+		};
+		206D10B41C1E68820046A580 /* Ask */ = {
+			isa = PBXGroup;
+			children = (
+				206D10B51C1E68820046A580 /* Ask.swift */,
+				206D10B61C1E68820046A580 /* AskerValidator.swift */,
+				206D10B71C1E68820046A580 /* AskSettings.swift */,
+			);
+			path = Ask;
+			sourceTree = "<group>";
+		};
+		206D10B81C1E68820046A580 /* Choose */ = {
+			isa = PBXGroup;
+			children = (
+				206D10B91C1E68820046A580 /* Choose.swift */,
+				206D10BA1C1E68820046A580 /* ChooseSettings.swift */,
+			);
+			path = Choose;
+			sourceTree = "<group>";
+		};
+		206D10BB1C1E68820046A580 /* Colorize */ = {
+			isa = PBXGroup;
+			children = (
+				206D10BC1C1E68820046A580 /* Colorizer.swift */,
+				206D10BD1C1E68820046A580 /* StringBackgroundColorizer.swift */,
+				206D10BE1C1E68820046A580 /* StringForegroundColorizer.swift */,
+				206D10BF1C1E68820046A580 /* StringStyle.swift */,
+				206D10C01C1E68820046A580 /* StringStyleColorizer.swift */,
+			);
+			path = Colorize;
+			sourceTree = "<group>";
+		};
+		206D10C11C1E68820046A580 /* ENV */ = {
+			isa = PBXGroup;
+			children = (
+				206D10C21C1E68820046A580 /* Env.swift */,
+			);
+			path = ENV;
+			sourceTree = "<group>";
+		};
+		206D10C31C1E68820046A580 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				206D10C41C1E68820046A580 /* ArgConvertible.swift */,
+				206D10C51C1E68820046A580 /* Glob.swift */,
+				206D10C61C1E68820046A580 /* ProcessInfo.swift */,
+				206D10C71C1E68820046A580 /* PromptPrinter.swift */,
+				206D10C81C1E68820046A580 /* PromptReader.swift */,
+				206D10C91C1E68820046A580 /* PromptSettings.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		206D10CA1C1E68820046A580 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				206D10CB1C1E68820046A580 /* CommandExecutor.swift */,
+				206D10CC1C1E68820046A580 /* Runner.swift */,
+				206D10CD1C1E68820046A580 /* RunnerSettings.swift */,
+				206D10CE1C1E68820046A580 /* RunResults.swift */,
+				206D10CF1C1E68820046A580 /* ShortHandRunner.swift */,
+				206D10D01C1E68820046A580 /* TaskPipe.swift */,
+			);
+			path = Runner;
 			sourceTree = "<group>";
 		};
 		ED12E87D900A1B1F9783E7FD /* Frameworks */ = {
@@ -77,15 +219,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F81580A27EAB10A8C1F48CB4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB1E749D7BFC06E5BC8154A9 /* Pods.debug.xcconfig */,
-				FF11414EAD09AD03B6F2D94F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,11 +226,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200AB32C1C1E5E430041E732 /* Build configuration list for PBXNativeTarget "human-to-gpx" */;
 			buildPhases = (
-				73FEF4704CB8066601C41255 /* Check Pods Manifest.lock */,
 				200AB3211C1E5E430041E732 /* Sources */,
-				200AB3221C1E5E430041E732 /* Frameworks */,
 				200AB3231C1E5E430041E732 /* CopyFiles */,
-				B5F6550D7318F165FDBCD1F1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,45 +270,40 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		73FEF4704CB8066601C41255 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B5F6550D7318F165FDBCD1F1 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		200AB3211C1E5E430041E732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206D10EA1C1E68820046A580 /* RunResults.swift in Sources */,
+				206D10D91C1E68820046A580 /* Choose.swift in Sources */,
+				206D10E01C1E68820046A580 /* Env.swift in Sources */,
+				206D10E61C1E68820046A580 /* PromptSettings.swift in Sources */,
+				206D10D11C1E68820046A580 /* Agree.swift in Sources */,
+				206D10E91C1E68820046A580 /* RunnerSettings.swift in Sources */,
+				206D10DC1C1E68820046A580 /* StringBackgroundColorizer.swift in Sources */,
 				200AB3291C1E5E430041E732 /* main.swift in Sources */,
+				206D10D31C1E68820046A580 /* Args.swift in Sources */,
+				206D10D71C1E68820046A580 /* AskerValidator.swift in Sources */,
+				206D10DF1C1E68820046A580 /* StringStyleColorizer.swift in Sources */,
+				206D10D41C1E68820046A580 /* ArgsParser.swift in Sources */,
+				206D10DD1C1E68820046A580 /* StringForegroundColorizer.swift in Sources */,
+				206D10E51C1E68820046A580 /* PromptReader.swift in Sources */,
+				206D10DE1C1E68820046A580 /* StringStyle.swift in Sources */,
+				206D10E31C1E68820046A580 /* ProcessInfo.swift in Sources */,
+				206D10E71C1E68820046A580 /* CommandExecutor.swift in Sources */,
+				206D10D61C1E68820046A580 /* Ask.swift in Sources */,
+				206D10DA1C1E68820046A580 /* ChooseSettings.swift in Sources */,
+				206D10E81C1E68820046A580 /* Runner.swift in Sources */,
+				206D10E21C1E68820046A580 /* Glob.swift in Sources */,
+				206D10EB1C1E68820046A580 /* ShortHandRunner.swift in Sources */,
+				206D10D81C1E68820046A580 /* AskSettings.swift in Sources */,
+				206D10D51C1E68820046A580 /* Argument.swift in Sources */,
+				206D10D21C1E68820046A580 /* AgreeSettings.swift in Sources */,
+				206D10E11C1E68820046A580 /* ArgConvertible.swift in Sources */,
+				206D10DB1C1E68820046A580 /* Colorizer.swift in Sources */,
+				206D10EC1C1E68820046A580 /* TaskPipe.swift in Sources */,
+				206D10E41C1E68820046A580 /* PromptPrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +392,6 @@
 		};
 		200AB32D1C1E5E430041E732 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB1E749D7BFC06E5BC8154A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,7 +399,6 @@
 		};
 		200AB32E1C1E5E430041E732 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF11414EAD09AD03B6F2D94F /* Pods.release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
