@@ -36,6 +36,7 @@
 		206D10EA1C1E68820046A580 /* RunResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CE1C1E68820046A580 /* RunResults.swift */; };
 		206D10EB1C1E68820046A580 /* ShortHandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CF1C1E68820046A580 /* ShortHandRunner.swift */; };
 		206D10EC1C1E68820046A580 /* TaskPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10D01C1E68820046A580 /* TaskPipe.swift */; };
+		206D10EE1C1E71F00046A580 /* NSDate+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,7 @@
 		206D10CE1C1E68820046A580 /* RunResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunResults.swift; sourceTree = "<group>"; };
 		206D10CF1C1E68820046A580 /* ShortHandRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortHandRunner.swift; sourceTree = "<group>"; };
 		206D10D01C1E68820046A580 /* TaskPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskPipe.swift; sourceTree = "<group>"; };
+		206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+ISO8601.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -107,6 +109,7 @@
 			children = (
 				206D10AC1C1E68820046A580 /* Swiftline */,
 				200AB3281C1E5E430041E732 /* main.swift */,
+				206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */,
 			);
 			path = "human-to-gpx";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				206D10EA1C1E68820046A580 /* RunResults.swift in Sources */,
 				206D10D91C1E68820046A580 /* Choose.swift in Sources */,
 				206D10E01C1E68820046A580 /* Env.swift in Sources */,
+				206D10EE1C1E71F00046A580 /* NSDate+ISO8601.swift in Sources */,
 				206D10E61C1E68820046A580 /* PromptSettings.swift in Sources */,
 				206D10D11C1E68820046A580 /* Agree.swift in Sources */,
 				206D10E91C1E68820046A580 /* RunnerSettings.swift in Sources */,
