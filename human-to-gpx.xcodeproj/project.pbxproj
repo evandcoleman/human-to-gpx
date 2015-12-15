@@ -36,7 +36,9 @@
 		206D10EA1C1E68820046A580 /* RunResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CE1C1E68820046A580 /* RunResults.swift */; };
 		206D10EB1C1E68820046A580 /* ShortHandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10CF1C1E68820046A580 /* ShortHandRunner.swift */; };
 		206D10EC1C1E68820046A580 /* TaskPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10D01C1E68820046A580 /* TaskPipe.swift */; };
-		206D10EE1C1E71F00046A580 /* NSDate+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */; };
+		206D10EE1C1E71F00046A580 /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10ED1C1E71F00046A580 /* NSDate+Extensions.swift */; };
+		206D10F01C1FB57C0046A580 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10EF1C1FB57C0046A580 /* Activity.swift */; };
+		206D10F21C1FB5960046A580 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D10F11C1FB5960046A580 /* Archive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,7 +85,9 @@
 		206D10CE1C1E68820046A580 /* RunResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunResults.swift; sourceTree = "<group>"; };
 		206D10CF1C1E68820046A580 /* ShortHandRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortHandRunner.swift; sourceTree = "<group>"; };
 		206D10D01C1E68820046A580 /* TaskPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskPipe.swift; sourceTree = "<group>"; };
-		206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+ISO8601.swift"; sourceTree = "<group>"; };
+		206D10ED1C1E71F00046A580 /* NSDate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extensions.swift"; sourceTree = "<group>"; };
+		206D10EF1C1FB57C0046A580 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		206D10F11C1FB5960046A580 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -109,7 +113,9 @@
 			children = (
 				206D10AC1C1E68820046A580 /* Swiftline */,
 				200AB3281C1E5E430041E732 /* main.swift */,
-				206D10ED1C1E71F00046A580 /* NSDate+ISO8601.swift */,
+				206D10EF1C1FB57C0046A580 /* Activity.swift */,
+				206D10F11C1FB5960046A580 /* Archive.swift */,
+				206D10ED1C1E71F00046A580 /* NSDate+Extensions.swift */,
 			);
 			path = "human-to-gpx";
 			sourceTree = "<group>";
@@ -281,13 +287,14 @@
 				206D10EA1C1E68820046A580 /* RunResults.swift in Sources */,
 				206D10D91C1E68820046A580 /* Choose.swift in Sources */,
 				206D10E01C1E68820046A580 /* Env.swift in Sources */,
-				206D10EE1C1E71F00046A580 /* NSDate+ISO8601.swift in Sources */,
+				206D10EE1C1E71F00046A580 /* NSDate+Extensions.swift in Sources */,
 				206D10E61C1E68820046A580 /* PromptSettings.swift in Sources */,
 				206D10D11C1E68820046A580 /* Agree.swift in Sources */,
 				206D10E91C1E68820046A580 /* RunnerSettings.swift in Sources */,
 				206D10DC1C1E68820046A580 /* StringBackgroundColorizer.swift in Sources */,
 				200AB3291C1E5E430041E732 /* main.swift in Sources */,
 				206D10D31C1E68820046A580 /* Args.swift in Sources */,
+				206D10F21C1FB5960046A580 /* Archive.swift in Sources */,
 				206D10D71C1E68820046A580 /* AskerValidator.swift in Sources */,
 				206D10DF1C1E68820046A580 /* StringStyleColorizer.swift in Sources */,
 				206D10D41C1E68820046A580 /* ArgsParser.swift in Sources */,
@@ -301,6 +308,7 @@
 				206D10E81C1E68820046A580 /* Runner.swift in Sources */,
 				206D10E21C1E68820046A580 /* Glob.swift in Sources */,
 				206D10EB1C1E68820046A580 /* ShortHandRunner.swift in Sources */,
+				206D10F01C1FB57C0046A580 /* Activity.swift in Sources */,
 				206D10D81C1E68820046A580 /* AskSettings.swift in Sources */,
 				206D10D51C1E68820046A580 /* Argument.swift in Sources */,
 				206D10D21C1E68820046A580 /* AgreeSettings.swift in Sources */,
