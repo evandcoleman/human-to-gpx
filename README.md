@@ -26,6 +26,10 @@ Usage:
   Optionally specify an output directory with (otherwise the current directory is used): -o <path>
 ```
 
+## TODO
+
+* Investigate using `NSXMLDocument` to generate the GPX file.
+
 ## License
 
 This project is available under the MIT license.
